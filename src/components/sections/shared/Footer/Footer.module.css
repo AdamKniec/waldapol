@@ -1,0 +1,16 @@
+.section {
+  background-color: #334141;
+}
+.innerWrapper {
+  display: flex;
+  max-width: 1392px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.companySummary {
+  max-width: 333px;
+}
+.contactInfoWrapper {
+  display: flex;
+  gap: 40px;
+}
