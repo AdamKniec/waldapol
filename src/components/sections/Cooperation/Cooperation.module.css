@@ -1,6 +1,16 @@
+.section {
+  background-color: #334141;
+  color: white;
+  padding: 160px 0;
+}
 .innerWrapper {
   display: flex;
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
+  flex-direction: column;
+}
+
+.textWrapper {
+  max-width: 414px;
 }

@@ -1,5 +1,8 @@
 .innerWrapper {
   display: flex;
+  flex-direction: column;
+  padding: 180px 0;
+  align-items: center;
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
