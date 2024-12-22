@@ -1,5 +1,7 @@
 .section {
   background-color: #334141;
+  color: white;
+  padding: 160px 0;
 }
 .innerWrapper {
   display: flex;
