@@ -3,6 +3,7 @@
   color: white;
   padding: 160px 0;
 }
+
 .innerWrapper {
   display: flex;
   max-width: 1392px;
@@ -13,4 +14,26 @@
 
 .textWrapper {
   max-width: 414px;
+}
+
+.paragraphRegular {
+  font-size: 20px;
+  line-height: 28px;
+  color: #bbc6c6;
+}
+
+.spacing {
+  margin-bottom: 32px;
+}
+
+.header {
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  max-width: 700px;
+  margin-bottom: 42px;
+}
+
+.innerTextWrapper {
+  max-width: 320px;
 }

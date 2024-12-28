@@ -1,3 +1,5 @@
+/* TODO CREATE SHARED CSS MODULES */
+
 .innerWrapper {
   padding: 200px 0;
   display: flex;
@@ -5,4 +7,20 @@
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
+  max-width: 655px;
+}
+
+.header {
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  max-width: 700px;
+  margin-bottom: 42px;
+  color: #424f4f;
+}
+
+.paragraphRegular {
+  font-size: 20px;
+  line-height: 28px;
+  color: #667474;
 }
