@@ -1,3 +1,4 @@
+import { BarlowCondensedFont800 } from "@/app/fonts";
 import styles from "./ContactForm.module.css";
 
 export const ContactForm = () => {
@@ -5,8 +6,10 @@ export const ContactForm = () => {
     <section>
       <div className={styles.innerWrapper}>
         <h2>Zamów teraz</h2>
-        <p>Oferujemy zbiorniki paliwowe najwyższej jakości</p>
-        <p>
+        <p className={`${BarlowCondensedFont800.className} ${styles.header}`}>
+          Oferujemy zbiorniki paliwowe najwyższej jakości
+        </p>
+        <p className={styles.paragraphRegular}>
           W celu złożenia zamówienia na zbiorniki paliwa lub zapytania
           ofertowego prosimy o skorzystanie z formularza kontaktowego poniżej
           lub tradycyjnie poprzez kontakt telefoniczny lub mailowy.

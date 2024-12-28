@@ -9,4 +9,28 @@
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
+  gap: 250px;
+}
+.header {
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  max-width: 700px;
+  margin-bottom: 42px;
+}
+.paragraphRegular {
+  font-size: 20px;
+  line-height: 28px;
+  color: #bbc6c6;
+}
+.textBold {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 800;
+}
+.textWrapper {
+  max-width: 686px;
+}
+.spacing {
+  margin-bottom: 32px;
 }
