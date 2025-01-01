@@ -1,3 +1,4 @@
+import { HoverCard } from "../shared/HoverCard/HoverCard";
 import styles from "./Products.module.css";
 
 export const Products = () => {
@@ -10,6 +11,13 @@ export const Products = () => {
           Oferujemy w szerokim asortymencie (duży wybór pojemności) do różnych
           typów samochodów ciężarowych:
         </p>
+        <div className={styles.cardWrapper}>
+          <HoverCard />
+          <HoverCard />
+          <HoverCard />
+          <HoverCard />
+          <HoverCard />
+        </div>
       </div>
     </section>
   );

@@ -7,3 +7,8 @@
   justify-content: space-between;
   margin: 0 auto;
 }
+
+.cardWrapper {
+  display: flex;
+  gap: 1.8px;
+}
