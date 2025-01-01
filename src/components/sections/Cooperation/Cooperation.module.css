@@ -6,10 +6,14 @@
 
 .innerWrapper {
   display: flex;
+  flex-direction: column;
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
   flex-direction: column;
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 
 .textWrapper {

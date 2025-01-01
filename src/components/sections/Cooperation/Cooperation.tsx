@@ -1,5 +1,7 @@
 import { BarlowCondensedFont800 } from "@/app/fonts";
 import styles from "./Cooperation.module.css";
+import Image from "next/image";
+import workerImage from "@/assets/images/worker.png";
 
 export const Cooperation = () => {
   return (
@@ -22,7 +24,12 @@ export const Cooperation = () => {
           </div>
         </div>
         <div>
-          <img />
+          <Image
+            src={workerImage}
+            alt="Pracownik zajmujący się spawaniem"
+            width={700}
+            height={765}
+          />
         </div>
       </div>
     </section>

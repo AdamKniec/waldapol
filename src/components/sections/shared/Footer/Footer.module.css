@@ -1,18 +1,69 @@
 .section {
   background-color: #334141;
   color: white;
-  padding: 160px 0;
+  padding: 80px 16px;
+  @media (min-width: 768px) {
+    padding: 160px 50px;
+  }
+  @media (min-width: 1200px) {
+    padding: 100px;
+  }
 }
+
 .innerWrapper {
   display: flex;
+  flex-direction: column;
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
+
 .companySummary {
   max-width: 333px;
 }
+
 .contactInfoWrapper {
   display: flex;
+  flex-direction: column;
   gap: 40px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    margin-top: 56px;
+  }
+  @media (min-width: 1200px) {
+    margin-top: unset;
+  }
+}
+
+.contactType {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.adress {
+  font-size: 16px;
+  color: #bbc6c6;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.copyright {
+  margin-top: 16px;
+}
+
+.textRegular {
+  line-height: 22.4px;
+  color: #bbc6c6;
+}
+
+.firstContactCategoryType {
+  margin-top: 56px;
+  @media (min-width: 768px) {
+    margin-top: unset;
+  }
 }
