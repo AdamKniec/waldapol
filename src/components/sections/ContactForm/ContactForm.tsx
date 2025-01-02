@@ -38,7 +38,6 @@ export const ContactForm = () => {
           <textarea
             className={`${styles.input} ${BarlowCondensedFont500.className} ${styles.textArea}`}
             placeholder="treść zapytania ofertowego"
-            // rows={5}
           />
         </form>
       </div>
