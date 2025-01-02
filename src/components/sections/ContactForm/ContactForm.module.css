@@ -24,3 +24,27 @@
   line-height: 28px;
   color: #667474;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  height: 67px;
+  border: none;
+  background-color: #e9f0f0;
+  padding: 20px;
+  font-size: 20px;
+  color: #424f4f;
+}
+
+.input::placeholder {
+  text-transform: uppercase;
+  color: #667474;
+}
+
+.textArea {
+  height: 200px;
+}
