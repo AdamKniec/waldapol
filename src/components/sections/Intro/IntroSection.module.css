@@ -1,6 +1,20 @@
 .innerWrapper {
   display: flex;
   max-width: 1392px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: 0 auto;
+}
+
+.textRed {
+  color: #d9251b;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.textSecondary {
+  display: block;
+  color: #424f4f;
+  font-size: 72px;
+  font-style: italic;
 }
