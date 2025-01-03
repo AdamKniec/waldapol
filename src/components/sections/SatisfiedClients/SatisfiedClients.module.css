@@ -4,3 +4,16 @@
   justify-content: space-between;
   margin: 0 auto;
 }
+
+.customersWrapper {
+  background-color: #e9f0f0;
+  display: flex;
+  gap: 80px;
+  padding: 50px;
+  align-items: center;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+}
