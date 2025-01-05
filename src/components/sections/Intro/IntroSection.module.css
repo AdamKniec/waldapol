@@ -1,7 +1,6 @@
 .innerWrapper {
   display: flex;
   max-width: 1392px;
-  /* justify-content: space-between; */
   margin: 0 auto;
 }
 
