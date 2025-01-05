@@ -1,19 +1,27 @@
+import { BarlowCondensedFont800 } from "@/app/fonts";
 import styles from "./HoverCard.module.css";
+import Image from "next/image";
+import SteelContainer from "@/assets/images/steelContainer.png";
 
 export const HoverCard = () => {
   return (
     <div>
       <div className={styles.wrapper}>
         <div>
-          <img
-            className={styles.image}
-            src="https://media.istockphoto.com/id/1406705759/pl/zdj%C4%99cie/stos-niebieskich-skrzynek-kontenerowych-z-t%C5%82em-nieba-wysy%C5%82ka-%C5%82adunk%C3%B3w-dla-logistyki-importu.jpg?s=2048x2048&w=is&k=20&c=5oE0dX2r57vVje-nEKCRra02ySWJCLhoscdwIvr5gAc="
-            alt=""
+          <Image
+            width={278}
+            height={176}
+            src={SteelContainer}
+            alt="Fuel container"
           />
         </div>
         <div className={styles.textWrapper}>
-          <p>Zbiorniki paliwa</p>
-          <p>ze stopniem</p>
+          <p className={styles.productName}>Zbiorniki paliwa</p>
+          <p
+            className={`${styles.productType} ${BarlowCondensedFont800.className}`}
+          >
+            ze stopniem
+          </p>
           <p className="hiddenText">
             Wytrzymałość, precyzja i niezawodność – nasze stalowe zbiorniki
             paliwa do ciężarówek to gwarancja bezpiecznego transportu na każdym

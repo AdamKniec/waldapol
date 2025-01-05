@@ -9,6 +9,20 @@
 }
 
 .cardWrapper {
+  margin-top: 80px;
   display: flex;
   gap: 1.8px;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-size: 72px;
+  color: #424f4f;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.subheader {
+  font-size: 24px;
+  color: #667474;
 }
