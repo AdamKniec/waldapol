@@ -8,7 +8,12 @@ export const HoverCard = () => {
     <div>
       <div className={styles.wrapper}>
         <div>
-          <Image width={278} height={176} src={SteelContainer} />
+          <Image
+            width={278}
+            height={176}
+            src={SteelContainer}
+            alt="Fuel container"
+          />
         </div>
         <div className={styles.textWrapper}>
           <p className={styles.productName}>Zbiorniki paliwa</p>
