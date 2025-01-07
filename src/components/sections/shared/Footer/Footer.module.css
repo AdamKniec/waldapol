@@ -55,16 +55,6 @@
   padding: 10px 0 10px 20px;
 }
 
-/* .header:before {
-  content: "";
-  width: 2px;
-  height: 20px;
-  background-color: red;
-  display: block;
-  position: relative;
-  top: 5px;
-} */
-
 .copyright {
   margin-top: 16px;
 }
