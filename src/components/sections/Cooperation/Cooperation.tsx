@@ -1,4 +1,4 @@
-import { BarlowCondensedFont800 } from "@/app/fonts";
+import { BarlowCondensedFont500, BarlowCondensedFont800 } from "@/app/fonts";
 import styles from "./Cooperation.module.css";
 import Image from "next/image";
 import workerImage from "@/assets/images/worker.png";
@@ -8,7 +8,11 @@ export const Cooperation = () => {
     <section className={styles.section}>
       <div className={styles.innerWrapper}>
         <div className={styles.textWrapper}>
-          <h2>Merchendising</h2>
+          <h2
+            className={`${BarlowCondensedFont500.className} ${styles.sectionName}`}
+          >
+            Merchendising
+          </h2>
           <p className={`${BarlowCondensedFont800.className} ${styles.header}`}>
             Zapraszamy do współpracy firmy z Polski i zagranicy
           </p>
@@ -26,9 +30,10 @@ export const Cooperation = () => {
         <div>
           <Image
             src={workerImage}
+            className={styles.image}
             alt="Pracownik zajmujący się spawaniem"
             width={700}
-            height={765}
+            height={632}
           />
         </div>
       </div>

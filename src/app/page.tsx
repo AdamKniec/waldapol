@@ -3,7 +3,6 @@ import { Cooperation } from "@/components/sections/Cooperation/Cooperation";
 import { IntroSection } from "@/components/sections/Intro/IntroSection";
 import { OfferIntro } from "@/components/sections/OfferIntro/OfferIntro";
 import { Products } from "@/components/sections/Products/Products";
-import { SatisfiedClients } from "@/components/sections/SatisfiedClients/SatisfiedClients";
 import { Footer } from "@/components/sections/shared/Footer/Footer";
 import { Navbar } from "@/components/sections/shared/Navbar/Navbar";
 
@@ -12,7 +11,6 @@ export default function Home() {
     <main>
       <Navbar />
       <IntroSection />
-      <SatisfiedClients />
       <OfferIntro />
       <Products />
       <Cooperation />
