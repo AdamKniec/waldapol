@@ -32,7 +32,6 @@
 }
 
 .textWrapper {
-  /* max-width: 414px; */
   @media (min-width: 1300px) {
     max-width: 414px;
   }
