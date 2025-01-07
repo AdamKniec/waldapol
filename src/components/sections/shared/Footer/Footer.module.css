@@ -22,7 +22,7 @@
 }
 
 .companySummary {
-  max-width: 333px;
+  max-width: 350px;
 }
 
 .contactInfoWrapper {
@@ -50,6 +50,9 @@
 
 .header {
   margin-bottom: 16px;
+  border-left: 4px solid red;
+  padding-left: 20px;
+  padding: 10px 0 10px 20px;
 }
 
 .copyright {
