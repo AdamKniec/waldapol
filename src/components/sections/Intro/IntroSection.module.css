@@ -3,12 +3,13 @@
   max-width: 1392px;
   margin: 0 auto;
   flex-direction: column;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
   padding-left: 16px;
   padding-right: 16px;
   @media (min-width: 1200px) {
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 120px;
   }
 }
 
@@ -51,14 +52,18 @@
 }
 
 .imagesWrapper {
-  margin-top: 90px;
-  display: flex;
-  gap: 1.1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  @media (min-width: 500px) {
+    display: flex;
+  }
 }
-.imagesWrapper div {
-  flex: 1;
-}
+
 .imagesWrapper img {
   width: 100%;
   height: auto;
+  @media (min-width: 635px) {
+    min-width: unset;
+  }
 }
