@@ -4,7 +4,11 @@ import styles from "./Button.module.css";
 import { BarlowCondensedFont700 } from "@/app/fonts";
 import ArrowIcon from "@/assets/images/arrowIcon.svg";
 
-export const Button = (props) => {
+interface ButtonProps {
+  scrollTo: string;
+}
+
+export const Button = (props: ButtonProps) => {
   const handleButtonClick = () => {
     const section = document.getElementById(props.scrollTo);
     section?.scrollIntoView({ behavior: "smooth" });
