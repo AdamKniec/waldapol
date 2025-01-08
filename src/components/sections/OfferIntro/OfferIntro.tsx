@@ -1,5 +1,6 @@
 import { BarlowCondensedFont800 } from "@/app/fonts";
 import styles from "./OfferIntro.module.css";
+import { Button } from "../shared/Button/Button";
 
 export const OfferIntro = () => {
   return (
@@ -12,7 +13,7 @@ export const OfferIntro = () => {
             Oferujemy zbiorniki paliwa do wszystkich typów samochodów
             ciężarowych
           </h2>
-          <button>zamów teraz</button>
+          <Button scrollTo="contact-form" />
         </div>
         <div className={styles.textWrapper}>
           <p className={`${styles.textBold} ${styles.spacing}`}>
