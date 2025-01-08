@@ -1,13 +1,13 @@
 /* TODO CREATE SHARED CSS MODULES */
 
 .innerWrapper {
-  padding: 200px 0;
+  padding: 100px 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 655px;
+  gap: 118px;
 }
 
 .header {
@@ -29,6 +29,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-top: 40px;
 }
 
 .input {
@@ -47,4 +48,13 @@
 
 .textArea {
   height: 200px;
+}
+.imageWrapper {
+  border-top: 4px solid #d9251b;
+  position: relative;
+  top: -100px;
+}
+
+.mainContentWrapper {
+  max-width: 686px;
 }
