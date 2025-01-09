@@ -16,7 +16,7 @@ export const ContactForm = () => {
           />
         </div>
         <div className={styles.mainContentWrapper}>
-          <h2 id="contact-form">Zamów teraz</h2>
+          <h2 id="contact-form" className={`${styles.decorativeHeader} ${BarlowCondensedFont500.className}`}>Zamów teraz</h2>
           <p className={`${BarlowCondensedFont800.className} ${styles.header}`}>
             Oferujemy zbiorniki paliwowe najwyższej jakości
           </p>

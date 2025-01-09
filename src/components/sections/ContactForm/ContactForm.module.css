@@ -7,11 +7,19 @@
   max-width: 1392px;
   justify-content: space-between;
   margin: 0 auto;
-  gap: 118px;
   @media (min-width: 1200px) {
     flex-direction: row;
     padding: 100px 100px;
+    gap: 118px;
   }
+}
+
+.decorativeHeader {
+  border-left: 4px solid #D9251B;
+  padding: 8px 0 12px 24px;
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #424F4F;
 }
 
 .header {

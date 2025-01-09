@@ -6,7 +6,7 @@ export const Products = () => {
   return (
     <section>
       <div className={styles.innerWrapper}>
-        <span className={styles.decorator}>|</span>
+        <span className={styles.decorator}></span>
         <h2 className={`${styles.header} ${BarlowCondensedFont800.className}`}>
           Poznaj naszą ofertę zbiorników paliwa
         </h2>
