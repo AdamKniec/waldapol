@@ -48,5 +48,8 @@
   display: none;
   @media (min-width: 1200px) {
     display: block;
+    width: 4px;
+    height: 50px;
+    background-color: #D9251B;
   }
 }
