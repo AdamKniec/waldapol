@@ -1,9 +1,15 @@
 import { BarlowCondensedFont800 } from "@/app/fonts";
 import styles from "./HoverCard.module.css";
 import Image from "next/image";
-import SteelContainer from "@/assets/images/steelContainer.png";
 
-export const HoverCard = () => {
+
+interface HoverCardProps {
+  type: string
+  src: string
+}
+
+
+export const HoverCard = (props: HoverCardProps) => {
   return (
     <div>
       <div className={styles.wrapper}>
@@ -11,7 +17,7 @@ export const HoverCard = () => {
           <Image
             width={278}
             height={176}
-            src={SteelContainer}
+            src={props.src}
             alt="Fuel container"
           />
         </div>
@@ -20,7 +26,7 @@ export const HoverCard = () => {
           <p
             className={`${styles.productType} ${BarlowCondensedFont800.className}`}
           >
-            ze stopniem
+            {props.type}
           </p>
           <p className="hiddenText">
             Wytrzymałość, precyzja i niezawodność – nasze stalowe zbiorniki

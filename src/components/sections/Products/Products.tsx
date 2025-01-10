@@ -1,6 +1,10 @@
 import { BarlowCondensedFont800 } from "@/app/fonts";
 import { HoverCard } from "../shared/HoverCard/HoverCard";
 import styles from "./Products.module.css";
+import Container from "@/assets/images/container.png";
+import FuelContainer from "@/assets/images/container1.png";
+import ManContainer from "@/assets/images/container_man.png";
+import StepContainer from "@/assets/images//step_container.png";
 
 export const Products = () => {
   return (
@@ -15,11 +19,10 @@ export const Products = () => {
           typów samochodów ciężarowych:
         </p>
         <div className={styles.cardWrapper}>
-          <HoverCard />
-          <HoverCard />
-          <HoverCard />
-          <HoverCard />
-          <HoverCard />
+          <HoverCard type={"Aluminiowe"} src={FuelContainer.src}/>
+          <HoverCard type={'Łączone'} src={ManContainer.src}/>
+          <HoverCard type={'ze stopniem'} src={StepContainer.src}/>
+          <HoverCard type={'Z podporami'} src={Container.src}/>
         </div>
       </div>
     </section>

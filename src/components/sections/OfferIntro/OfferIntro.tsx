@@ -4,7 +4,7 @@ import { Button } from "../shared/Button/Button";
 
 export const OfferIntro = () => {
   return (
-    <section className={styles.sectionWrapper}>
+    <section className={styles.sectionWrapper}  id={'offer-intro'}>
       <div className={styles.innerWrapper}>
         <div>
           <h2

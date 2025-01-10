@@ -2,7 +2,19 @@
   display: flex;
   max-width: 1392px;
   list-style-type: none;
-  padding: 60px 100px;
-  gap: 48px;
+  padding: 30px 16px;
+  gap: 10px;
   margin: 0 auto;
+  color: #667474;
+  @media (min-width: 1200px) {
+    padding: 30px 100px;
+    gap: 48px;
+  }
+}
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
 }

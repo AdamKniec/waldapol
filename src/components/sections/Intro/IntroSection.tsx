@@ -2,7 +2,10 @@ import Image from "next/image";
 import styles from "./IntroSection.module.css";
 import Logo from "@/assets/images/logo.svg";
 import { BarlowCondensedFont800 } from "@/app/fonts";
-import SteelContainer from "@/assets/images/steelContainer.png";
+import Container from "@/assets/images/container.png";
+import FuelContainer from "@/assets/images/container1.png";
+import ManContainer from "@/assets/images/container_man.png";
+import StepContainer from "@/assets/images//step_container.png";
 
 export const IntroSection = () => {
   return (
@@ -10,7 +13,7 @@ export const IntroSection = () => {
       <div className={styles.innerWrapper}>
         <div className={styles.headerWrapper}>
           <Image
-            src={Logo}
+            src={Logo.src}
             width={154}
             height={220}
             alt="Waldapol"
@@ -28,7 +31,7 @@ export const IntroSection = () => {
             <Image
               width={340}
               height={210}
-              src={SteelContainer}
+              src={Container.src}
               alt="Fuel container"
             />
           </div>
@@ -36,7 +39,7 @@ export const IntroSection = () => {
             <Image
               width={340}
               height={210}
-              src={SteelContainer}
+              src={ManContainer.src}
               alt="Fuel container"
             />
           </div>
@@ -44,7 +47,7 @@ export const IntroSection = () => {
             <Image
               width={340}
               height={210}
-              src={SteelContainer}
+              src={StepContainer.src}
               alt="Fuel container"
             />
           </div>
@@ -52,7 +55,7 @@ export const IntroSection = () => {
             <Image
               width={340}
               height={210}
-              src={SteelContainer}
+              src={FuelContainer.src}
               alt="Fuel container"
             />
           </div>

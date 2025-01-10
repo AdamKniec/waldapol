@@ -19,7 +19,7 @@ export const Button = (props: ButtonProps) => {
       className={`${styles.button} ${BarlowCondensedFont700.className}`}
     >
       zamów teraz
-      <Image src={ArrowIcon} width={24} height={24} alt="" />
+      <Image src={ArrowIcon.src} width={24} height={24} alt="" />
     </button>
   );
 };
