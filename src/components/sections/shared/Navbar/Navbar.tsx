@@ -4,7 +4,7 @@ import Link from "next/link";
 import {BarlowCondensedFont700} from "@/app/fonts";
 
 export const Navbar = () => {
-    const handleLinkClick = (scrollTarget) => {
+    const handleLinkClick = (scrollTarget: string) => {
         const section = document.getElementById(scrollTarget);
         section?.scrollIntoView({ behavior: "smooth" });
     };
