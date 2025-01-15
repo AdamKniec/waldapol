@@ -5,6 +5,8 @@ import Container from "@/assets/images/container.png";
 import FuelContainer from "@/assets/images/container1.png";
 import ManContainer from "@/assets/images/container_man.png";
 import StepContainer from "@/assets/images//step_container.png";
+import 'photoswipe/dist/photoswipe.css'
+import {GallerySection} from "@/components/sections/Gallery/Gallery";
 
 export const Products = () => {
   return (
@@ -24,6 +26,7 @@ export const Products = () => {
           <HoverCard type={'ze stopniem'} src={StepContainer.src}/>
           <HoverCard type={'Z podporami'} src={Container.src}/>
         </div>
+        <GallerySection />
       </div>
     </section>
   );

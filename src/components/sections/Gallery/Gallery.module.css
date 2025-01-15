@@ -1,0 +1,25 @@
+.header {
+    font-size: 52px;
+    line-height: 52px;
+    text-transform: uppercase;
+    max-width: 700px;
+    margin-bottom: 42px;
+    color: #424f4f;
+    text-align: center;
+}
+.sectionWrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.categoriesList {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    justify-content: center;
+    color: #667474;
+    font-size: 24px;
+}
+.categoriesList li {
+    cursor: pointer;
+}
