@@ -13,7 +13,7 @@ export const OfferIntro = () => {
             Oferujemy zbiorniki paliwa do wszystkich typów samochodów
             ciężarowych
           </h2>
-          <Button scrollTo="contact-form" />
+          <Button scrollTo="contact" />
         </div>
         <div className={styles.textWrapper}>
           <p className={`${styles.textBold} ${styles.spacing}`}>
