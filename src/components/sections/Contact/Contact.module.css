@@ -8,7 +8,8 @@
   justify-content: space-between;
   margin: 0 auto;
   @media (min-width: 1200px) {
-    flex-direction: row;
+
+    align-items: center;
     padding: 100px 100px;
     gap: 118px;
   }
@@ -18,64 +19,45 @@
   border-left: 4px solid #D9251B;
   padding: 8px 0 12px 24px;
   font-size: 24px;
-  margin-bottom: 24px;
+  width: max-content;
+  text-align: center;
+  margin: 0 auto;
   color: #424F4F;
+  height: 50px;
+  margin-bottom: 20px;
 }
 
 .header {
   font-size: 52px;
   line-height: 52px;
   text-transform: uppercase;
-  max-width: 700px;
   margin-bottom: 42px;
   color: #424f4f;
+  text-align: center;
 }
 
 .paragraphRegular {
   font-size: 20px;
   line-height: 28px;
   color: #667474;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 40px;
-}
-
-.input {
-  height: 67px;
-  border: none;
-  background-color: #e9f0f0;
-  padding: 20px;
-  font-size: 20px;
-  color: #424f4f;
-}
-
-.input::placeholder {
-  text-transform: uppercase;
-  color: #667474;
-}
-
-.textArea {
-  height: 200px;
-}
 .imageWrapper {
-  border-top: 4px solid #d9251b;
   position: relative;
   top: -100px;
 }
 
 .mainContentWrapper {
-  max-width: 686px;
+  max-width: 886px;
 }
 
 .map {
   width: 100%;
   height: 200px;
   @media (min-width: 1200px) {
-    width: 588px;
-    height: 1058px;
+    width: 888px;
+    height: 500px;
   }
 }

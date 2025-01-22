@@ -16,10 +16,16 @@ export const Navbar = () => {
             <Link href={'/'}>Start</Link>
         </li>
         <li onClick={() => handleLinkClick('offer-intro')}>
-            Oferta
+            <a href="#">Oferta</a>
         </li>
-        <li onClick={() => handleLinkClick('contact-form')}>Zamówienia</li>
-        <li onClick={() => handleLinkClick(('footer'))}>Kontakt</li>
+        <li onClick={() => handleLinkClick('contact')}>
+            <a href="#">Zamównienia</a>
+        </li>
+        <li onClick={() => handleLinkClick(('footer'))}>
+            <a href="#">
+                Kontakt
+            </a>
+        </li>
       </ul>
     </nav>
   );

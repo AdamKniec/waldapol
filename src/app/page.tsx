@@ -1,4 +1,4 @@
-import { ContactForm } from "@/components/sections/ContactForm/ContactForm";
+import { Contact } from "@/components/sections/Contact/Contact";
 import { Cooperation } from "@/components/sections/Cooperation/Cooperation";
 import { IntroSection } from "@/components/sections/Intro/IntroSection";
 import { OfferIntro } from "@/components/sections/OfferIntro/OfferIntro";
@@ -14,7 +14,7 @@ export default function Home() {
       <OfferIntro />
       <Products />
       <Cooperation />
-      <ContactForm />
+      <Contact />
       <Footer />
     </main>
   );
