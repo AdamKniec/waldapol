@@ -21,6 +21,7 @@
   justify-content: center;
   color: #667474;
   font-size: 24px;
+  flex-wrap: wrap;
 }
 .categoriesList li {
   cursor: pointer;
