@@ -2,12 +2,11 @@ import { BarlowCondensedFont800 } from "@/app/fonts";
 import styles from "./HoverCard.module.css";
 import Image from "next/image";
 
-
 interface HoverCardProps {
-  type: string
-  src: string
+  type: string;
+  src: string;
+  description: string;
 }
-
 
 export const HoverCard = (props: HoverCardProps) => {
   return (
@@ -28,12 +27,7 @@ export const HoverCard = (props: HoverCardProps) => {
           >
             {props.type}
           </p>
-          <p className="hiddenText">
-            Wytrzymałość, precyzja i niezawodność – nasze stalowe zbiorniki
-            paliwa do ciężarówek to gwarancja bezpiecznego transportu na każdym
-            kilometrze. Stworzone z myślą o długiej żywotności i łatwej
-            instalacji, dostosowane do Twoich potrzeb.
-          </p>
+          <p className="hiddenText">{props.description}</p>
         </div>
       </div>
     </div>

@@ -1,25 +1,41 @@
 .header {
-    font-size: 52px;
-    line-height: 52px;
-    text-transform: uppercase;
-    max-width: 700px;
-    margin-bottom: 42px;
-    color: #424f4f;
-    text-align: center;
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  max-width: 700px;
+  margin-bottom: 42px;
+  color: #424f4f;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sectionWrapper {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .categoriesList {
-    display: flex;
-    list-style-type: none;
-    gap: 1rem;
-    justify-content: center;
-    color: #667474;
-    font-size: 24px;
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  justify-content: center;
+  color: #667474;
+  font-size: 24px;
 }
 .categoriesList li {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.galleryWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 1000px) {
+    justify-content: center;
+    flex-direction: row;
+  }
 }
