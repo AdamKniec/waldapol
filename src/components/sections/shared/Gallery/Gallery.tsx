@@ -4,6 +4,10 @@ interface Image {
   original: string;
   thumbnail: string;
   alt: string;
+  customWidthThumbnail: number;
+  customHeightThumbnail: number;
+  customWidthImage: number;
+  customHeightImage: number;
 }
 
 interface ImagesGalleryProps {
@@ -18,8 +22,8 @@ export const ImagesGallery = (props: ImagesGalleryProps) => {
           <Item
             original={image.original}
             thumbnail={image.thumbnail}
-            width="800"
-            height="500"
+            width={image.customWidthImage || 800}
+            height={image.customHeightImage || 500}
           >
             {({ ref, open }) => (
               <img
@@ -27,8 +31,8 @@ export const ImagesGallery = (props: ImagesGalleryProps) => {
                 onClick={open}
                 alt={image.alt}
                 src={image.original}
-                width={300}
-                height={189.87}
+                width={image.customWidthThumbnail || 300}
+                height={image.customHeightThumbnail || 189.87}
               />
             )}
           </Item>
