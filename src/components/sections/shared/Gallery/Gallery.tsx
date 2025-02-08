@@ -4,10 +4,10 @@ interface Image {
   original: string;
   thumbnail: string;
   alt: string;
-  customWidthThumbnail: number;
-  customHeightThumbnail: number;
-  customWidthImage: number;
-  customHeightImage: number;
+  customWidthThumbnail?: number;
+  customHeightThumbnail?: number;
+  customWidthImage?: number;
+  customHeightImage?: number;
 }
 
 interface ImagesGalleryProps {
