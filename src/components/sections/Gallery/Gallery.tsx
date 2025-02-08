@@ -22,7 +22,7 @@ export const GallerySection = () => {
           <li onClick={() => setSelectedCategory("man")}>MAN</li>
           <li onClick={() => setSelectedCategory("benz")}>MERCEDES-BENZ</li>
           <li onClick={() => setSelectedCategory("scania")}>SCANIA</li>
-          <li onClick={() => setSelectedCategory("volvo")}>VOLVO</li>
+          <li onClick={() => setSelectedCategory("volvo")}>VOLVO/RENAULT</li>
         </ul>
       </div>
       <div className={styles.galleryWrapper}>
