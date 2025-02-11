@@ -23,6 +23,8 @@ export const Footer = () => {
             >
               Kontakt telefoniczny
             </p>
+            <p className={styles.textRegular}>600 445 663</p>
+            <p className={styles.textRegular}>604 231 058</p>
             <p className={styles.textRegular}>068 384 53 92</p>
           </div>
           <div>

@@ -23,7 +23,7 @@ export const Products = () => {
         <div className={styles.cardWrapper}>
           <HoverCard
             type={"Aluminiowe"}
-            src={FuelContainer.src}
+            src={Container.src}
             description={
               "Wytrzymałe, lekkie i odporne na korozję – aluminiowe zbiorniki paliwa to idealne rozwiązanie dla maksymalnej efektywności i długiej żywotności."
             }
@@ -44,7 +44,7 @@ export const Products = () => {
           />
           <HoverCard
             type={"Z podporami"}
-            src={Container.src}
+            src={FuelContainer.src}
             description={
               "Stabilność i bezpieczeństwo w każdych warunkach – zbiorniki z podporami zapewniają solidne mocowanie i niezawodność na długie trasy."
             }
