@@ -49,6 +49,13 @@ export const Products = () => {
               "Stabilność i bezpieczeństwo w każdych warunkach – zbiorniki z podporami zapewniają solidne mocowanie i niezawodność na długie trasy."
             }
           />
+          <HoverCard
+            type={"Inne"}
+            src={Container.src}
+            description={
+              "Zbiorniki do ciągników rolniczych, autobusów, za kabinowe i do busów"
+            }
+          />
         </div>
         <GallerySection />
       </div>
