@@ -53,7 +53,7 @@ export const Products = () => {
             type={"Inne"}
             src={Container.src}
             description={
-              "Zbiorniki do ciągników rolniczych, autobusów, za kabinowe i do busów"
+              "Zbiorniki do ciągników rolniczych, autobusów, za kabinowe i do busów. Tworzymy zbiorniki między innymi dla marek takich jak Mitsubishi, Toyota, Isuzu."
             }
           />
         </div>
