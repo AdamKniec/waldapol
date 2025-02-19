@@ -12,7 +12,7 @@ export const Footer = () => {
               Jesteśmy od lat na rynku polskim strategicznym partnerem handlowym
               głównych producentów oryginalnych zbiorników paliwowych.
             </p>
-            <p className={styles.copyright}>©1990-2024 Waldapol.</p>
+            <p className={styles.copyright}>©1990-2025 Waldapol.</p>
             <p>Wszelkie prawa zastrzeżone. </p>
           </div>
         </div>

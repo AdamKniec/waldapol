@@ -25,12 +25,16 @@
 }
 
 .header {
-  font-size: 52px;
-  line-height: 52px;
-  text-transform: uppercase;
-  margin-bottom: 42px;
-  color: #424f4f;
   text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #424f4f;
+  line-height: 32px;
+  margin-bottom: 42px;
+  @media (min-width: 1200px) {
+    font-size: 52px;
+    line-height: 52px;
+  }
 }
 
 .paragraphRegular {
@@ -39,11 +43,6 @@
   color: #667474;
   text-align: center;
   margin-bottom: 24px;
-}
-
-.imageWrapper {
-  position: relative;
-  top: -100px;
 }
 
 .mainContentWrapper {
